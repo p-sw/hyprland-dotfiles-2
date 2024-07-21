@@ -56,7 +56,7 @@
 	"format-linked": "󰤫",
 	"format-ethernet": "󰈀",
 	"format-disconnected": "󰤭",
-	"on-click": "networkmanager_dmenu"
+	"on-click": "nm-connection-editor"
   },
   "bluetooth": {
   	"format-off": "󰂲",
