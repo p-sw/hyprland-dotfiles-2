@@ -48,6 +48,7 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
 * [Rofi](https://github.com/davatorium/rofi) - Application launcher & dmenu replacement
 * [Waybar](https://github.com/Alexays/Waybar) - Wayland bar
 * [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) - NetworkManager control
+* [bluez-utils](https://www.bluez.org/) - Bluez (bluetooth) control
 * [wlogout](https://github.com/ArtsyMacaw/wlogout) - Logout menu
 * [dunst](https://github.com/dunst-project/dunst) - Notification
 * [yazi](https://github.com/dunst-project/dunst) - Terminal File Manager
