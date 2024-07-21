@@ -1,5 +1,16 @@
 # Hyprland Configuration v2
 
+## Preview
+
+### Fastfetch & Rofi
+![Fastfetch & Rofi Preview Image](https://github.com/p-sw/hyprland-dotfiles-2/blob/main/previews/1-fastfetch-rofi.png?raw=true)
+
+### Zed IDE
+![Zed IDE Preview Image](https://github.com/p-sw/hyprland-dotfiles-2/blob/main/previews/2-zed.png?raw=true)
+
+### WLogout
+![WLogout Preview Image](https://github.com/p-sw/hyprland-dotfiles-2/blob/main/previews/3-wlogout.png?raw=true)
+
 ## Before Installation
 
 ### Note About NetworkManager
