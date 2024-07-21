@@ -1,0 +1,46 @@
+window {
+    font-family: CaskaydiaCove Nerd Font, monospace;
+    font-size: 12pt;
+    color: #cdd6f4; 
+    background-color: rgba(0, 0, 0, .9);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    border: none;
+    color: #fbf1c7;
+    text-shadow: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #66317F;
+    margin: 5px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: #A671BF;
+}
+
+#lock {
+    background-color: #B06875;
+    background-image: image(url("/home/psw/.config/wlogout/icons/mdi--lock-outline.png"));
+}
+
+#lock:hover {
+    background-color: #F0A8B5;
+}
+
+#logout {
+    background-image: image(url("/home/psw/.config/wlogout/icons/mdi--logout.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/psw/.config/wlogout/icons/mdi--shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/psw/.config/wlogout/icons/mdi--reload.png"));
+}
+

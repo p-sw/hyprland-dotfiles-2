@@ -1,0 +1,73 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "margin-top": 4,
+  "margin-bottom": 4,
+  "margin-left": 12,
+  "margin-right": 12,
+  "spacing": 8,
+  "modules-left": [
+	"clock",
+	"cpu",
+	"memory"
+  ],
+  "modules-center": [
+	"hyprland/workspaces"
+  ],
+  "modules-right": [
+  	"network",
+	"bluetooth",
+	"custom/wlogout"
+  ],
+  "clock": {
+	"format": "   {:%H:%M:%S}",
+	"interval": 1
+  },
+  "cpu": {
+	"format": "   {icon}",
+	"format-icons": [
+        	"▁", // green
+        	"▂", // blue
+         	"▃", // white
+          	"▄", // white
+          	"▅", // yellow
+          	"▆", // yellow
+          	"▇", // orange
+          	"█"  // red
+     	]
+  },
+  "memory": {
+  	"format": "   {percentage}%"
+  },
+  "hyprland/workspaces": {
+	"format": ""
+  },
+  "network": {
+  	"interface": "wlan0",
+	"interval": 10,
+	"format": "{icon}",
+	"format-wifi": "{icon}",
+	"format-icons": [
+		"󰤟",
+		"󰤢",
+		"󰤥",
+		"󰤨"
+	],
+	"format-linked": "󰤫",
+	"format-ethernet": "󰈀",
+	"format-disconnected": "󰤭",
+	"on-click": "networkmanager_dmenu"
+  },
+  "bluetooth": {
+  	"format-off": "󰂲",
+	"format-disabled": "󰂲",
+	"format-on": "󰂯",
+	"format-connected": "󰂱",
+	"on-click": "blueman-manager"
+  },
+  "custom/wlogout": {
+	"format": "{icon}",
+  	"format-icons": "",
+	"on-click": "wlogout -b 4 -c 0 -r 0 -L 700 -R 700 -T 300 -B 300"
+  }
+}
