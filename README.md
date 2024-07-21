@@ -47,7 +47,7 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
 * [Starship](https://starship.rs) - For shell customization
 * [Rofi](https://github.com/davatorium/rofi) - Application launcher & dmenu replacement
 * [Waybar](https://github.com/Alexays/Waybar) - Wayland bar
-* [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu) - Easier control NetworkManager via Rofi
+* [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) - NetworkManager control
 * [wlogout](https://github.com/ArtsyMacaw/wlogout) - Logout menu
 * [dunst](https://github.com/dunst-project/dunst) - Notification
 * [yazi](https://github.com/dunst-project/dunst) - Terminal File Manager
