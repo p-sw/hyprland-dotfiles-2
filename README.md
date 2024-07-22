@@ -15,7 +15,7 @@
 
 ### Note About NetworkManager
 
-This configuration uses **networkmanager-dmenu** for easier control via rofi.  
+This configuration uses **nm-connection-editor** to control NetworkManager.  
 
 > If you don't care
 
@@ -24,14 +24,6 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
 > Or, if you want to use other
 
 * Just use what you want, and change the configuration for network module in **Waybar** to make it work with that.
-
-### Note About Dependency Replacement
-
-* Starship
-  * Easily replaceable. You can just ignore if you don't want to use this.
-* Rofi
-  * Also easily replaceable. Just be careful when you use networkmanager-dmenu - you should change the configuration.
-* _[TODO]_
 
 ### Requirements
 
@@ -45,7 +37,7 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
     * [grimshot](https://www.mankier.com/1/grimshot) - Screenshot tool
     * [Kitty](https://sw.kovidgoyal.net/kitty) - Shell used by Hyprland
 * [Starship](https://starship.rs) - For shell customization
-* [Rofi](https://github.com/davatorium/rofi) - Application launcher & dmenu replacement
+* [Fuzzel](https://codeberg.org/dnkl/fuzzel) - application launcher & dmenu replacement
 * [Waybar](https://github.com/Alexays/Waybar) - Wayland bar
 * [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) - NetworkManager control
 * [bluez-utils](https://www.bluez.org/) - Bluez (bluetooth) control
@@ -57,7 +49,7 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
 
 1. Install requirements.
 2. Move everything in .config to your ~/.config folder.
-3. installed yay
+3. installed! yay
 
 ## Shortcuts
 
@@ -75,7 +67,7 @@ This configuration uses **networkmanager-dmenu** for easier control via rofi.
 
 * `mainMod` + `Q`: Open Kitty (shell)
 * `mainMod` + `E`: Run Yazi (shell file explorer)
-* `mainMod` + `Space`: Run Rofi (application launcher)
+* `mainMod` + `Space`: Run Fuzzel (application launcher)
 * `mainMod` + `L`: Run hyprlock (screen lock)
 
 ### Workspace
