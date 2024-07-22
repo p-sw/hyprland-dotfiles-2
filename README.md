@@ -49,11 +49,13 @@ This configuration uses **nm-connection-editor** to control NetworkManager.
 
 1. Install requirements.
 2. Move everything in .config to your ~/.config folder.
-3. installed! yay
+3. Update required Hyprland config.
+  * Monitor (refer to [this documentation](https://wiki.hyprland.org/Configuring/Monitors/))
+  * Keyboard & Mouse, input config (refer to [this documentation](https://wiki.hyprland.org/Configuring/Variables/#input))
 
 ## Shortcuts
 
-**mainMod = Super (Windows key or (sorry idk mac keyboard))**
+**mainMod = Super (Windows key for windows layout)**
 
 ### Hyprland Features
 
