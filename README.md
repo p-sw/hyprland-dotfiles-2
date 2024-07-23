@@ -72,10 +72,15 @@ This configuration uses **nm-connection-editor** to control NetworkManager.
 * `mainMod` + `Space`: Run Fuzzel (application launcher)
 * `mainMod` + `L`: Run hyprlock (screen lock)
 
+### Window Control
+
+* `mainMod` + `Arrow Key`: Switch focus to direction
+* `mainMod` + `Left Shift` + `Arrow Key`: Move window to direction
+
 ### Workspace
 
-* `mainMod` + `Left / Right Arrow`: Switch to prev / next workspace
-* `mainMod` + `Left Shift` + `Left / Right Arrow`: Switch to prev / next workspace with active window
+* `Left Ctrl` + `mainMod` + `Left / Right Arrow`: Switch to prev / next workspace
+* `Left Ctrl` + `mainMod` + `Left Shift` + `Left / Right Arrow`: Switch to prev / next workspace with active window
 
 ### Screenshot (Grimshot)
 
